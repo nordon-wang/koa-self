@@ -1,0 +1,15 @@
+2019-08-21 23:00:35,566 ERROR 99229 [-/127.0.0.1/-/7ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-security/app/extend/context.js:87:33)
+    at Object.ensureCsrfSecret (/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-security/app/extend/context.js:98:13)
+    at csrf (/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/nordon.wang/Desktop/self/koa-self/node_modules/koa-compose/index.js:42:32)
+    at /Users/nordon.wang/Desktop/self/koa-self/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/nordon.wang/Desktop/self/koa-self/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/nordon.wang/Desktop/self/koa-self/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/nordon.wang/Desktop/self/koa-self/node_modules/koa-compose/index.js:42:32)
+
+pid: 99229
+hostname: jyp
+

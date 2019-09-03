@@ -1,4 +1,4 @@
-## 第一章 koa入门与使用
+## koa入门与使用
 
 ![image-20190620190151695](assets/image-20190620190151695.png)
 
@@ -43,7 +43,8 @@ const app = new Koa();
 
 const main = ctx => {
   // 疑问？
-  // 若是在此处打断电
+  // 若是在此处打断点，为何 ctx.response.status为404，ctx.response.message为 not found
+  // 通过set劫持，只要修改了body就会自动把status改为200
   ctx.response.body = 'Hello World';
 };
 
@@ -54,6 +55,14 @@ app.listen(3000);
 上面代码中，`main`函数用来设置`ctx.response.body`。然后，使用`app.use`方法加载`main`函数。
 
 你可能已经猜到了，`ctx.response`代表 HTTP Response。同样地，`ctx.request`代表 HTTP Request。
+
+- 若是在此处打断点，为何 ctx.response.status为404，ctx.response.message为 not found
+
+![WX20190818-222453@2x](/Users/nordon.wang/Desktop/self/koa-self/assets/WX20190818-222453@2x.png)
+
+- 通过set劫持，只要修改了body为有效值就会自动把status改为200
+
+![WX20190818-222927@2x](/Users/nordon.wang/Desktop/self/koa-self/assets/WX20190818-222927@2x.png)
 
 #### 3. http response类型
 
@@ -89,7 +98,7 @@ const path = require('path');
 
 const main = (ctx) => {
     ctx.response.type = 'html';
-    ctx.response.body = fs.createReadStream(path.resolve(path.join(__dirname, './demo.html')));
+    ctx.response.body = fs.createReadStream(path.resolve(path.join(__dirname, './index.html')));
 }
 
 app.use(main);
@@ -104,13 +113,18 @@ app.listen(3000);
 
 ```js
 const main = ctx => {
-  if (ctx.request.path !== '/') {
-    ctx.response.type = 'html';
-    ctx.response.body = '<a href="/">Index Page</a>';
-  } else {
-    ctx.response.body = 'Hello World';
+  ctx.response.type = 'html'
+  const { path: routerPath } = ctx.request
+  if(routerPath === '/'){
+    ctx.response.body = fs.createReadStream(path.join(__dirname, './index.html'), 'utf-8')
+  }else if (routerPath === '/news'){
+    ctx.response.body = '<h1>news</h1>'
+  }else if (routerPath === '/about'){
+    ctx.response.body = '<h1>about</h1>'
+  }else {
+    ctx.response.body = '<h1>others</h1>'
   }
-};
+}
 ```
 
 #### 2. koa-route模块
@@ -120,17 +134,21 @@ const main = ctx => {
 ```javascript
 const route = require('koa-route');
 
-const about = ctx => {
-  ctx.response.type = 'html';
-  ctx.response.body = '<a href="/">Index Page</a>';
-};
-
 const main = ctx => {
-  ctx.response.body = 'Hello World';
-};
+  ctx.response.body = 'main'
+}
 
-app.use(route.get('/', main));
-app.use(route.get('/about', about));
+const news = ctx => {
+  ctx.response.body = 'news'
+}
+
+const errorPath = ctx => {
+  ctx.response.body = '404'
+}
+
+app.use(route.get('/', main))
+app.use(route.get('/news', news))
+app.use(route.get('*', errorPath))
 ```
 
 #### 3. 静态资源
@@ -150,15 +168,17 @@ app.use(main);
 有些场合，服务器需要重定向（redirect）访问请求。比如，用户登陆以后，将他重定向到登陆前的页面。`ctx.response.redirect()`方法可以发出一个302跳转，将用户导向另一个路由。
 
 ```js
-const redirect = ctx => {
-  ctx.response.redirect('/');
-  ctx.response.body = '<a href="/">Index Page</a>';
-};
-
-app.use(route.get('/redirect', redirect));
+const errorPath = ctx => {
+  // ctx.response.body = '404'
+  ctx.response.redirect('/')
+}
+// 将全部的错误页面重定向到首页
+app.use(route.get('*', errorPath))
 ```
 
 ### 中间件
+
+> 中间件的核心: koa在use 里面注入的 next 方法
 
 #### 1.logger
 
@@ -569,7 +589,7 @@ app/public
 ├── css
 │   └── news.css
 └── js
-    ├── lib.js
+    ├── lib.jsd
     └── news.js
 ```
 

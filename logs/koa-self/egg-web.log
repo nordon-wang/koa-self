@@ -1,0 +1,14 @@
+2019-08-21 23:00:24,307 INFO 99229 [egg:logger] init all loggers with options: {"dir":"/Users/nordon.wang/Desktop/self/koa-self/logs/koa-self","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"koa-self-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-21 23:00:24,341 INFO 99229 [egg-multipart] stream mode enable
+2019-08-21 23:00:24,399 INFO 99229 [egg-static] starting static serve /public/ -> /Users/nordon.wang/Desktop/self/koa-self/app/public
+2019-08-21 23:00:24,402 INFO 99229 [egg-security] use csrf middleware
+2019-08-21 23:00:24,403 INFO 99229 [egg-security] use methodnoallow middleware
+2019-08-21 23:00:24,404 INFO 99229 [egg-security] use noopen middleware
+2019-08-21 23:00:24,405 INFO 99229 [egg-security] use nosniff middleware
+2019-08-21 23:00:24,405 INFO 99229 [egg-security] use xssProtection middleware
+2019-08-21 23:00:24,406 INFO 99229 [egg-security] use xframe middleware
+2019-08-21 23:00:24,407 INFO 99229 [egg-security] use dta middleware
+2019-08-21 23:00:24,407 INFO 99229 [egg-security] compose 7 middlewares into one security middleware
+2019-08-21 23:00:24,414 INFO 99229 [egg:core] dump config after load, 7ms
+2019-08-21 23:00:24,428 INFO 99229 [egg-watcher:application] watcher start success
+2019-08-21 23:00:24,434 INFO 99229 [egg:core] dump config after ready, 3ms

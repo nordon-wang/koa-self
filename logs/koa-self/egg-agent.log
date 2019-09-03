@@ -1,0 +1,10 @@
+2019-08-21 23:00:23,600 INFO 99228 [egg:logger] init all loggers with options: {"dir":"/Users/nordon.wang/Desktop/self/koa-self/logs/koa-self","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"koa-self-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-08-21 23:00:23,614 INFO 99228 [egg:core] dump config after load, 5ms
+2019-08-21 23:00:23,658 INFO 99228 [egg-watcher] Start watching: ["/Users/nordon.wang/Desktop/self/koa-self/app","/Users/nordon.wang/Desktop/self/koa-self/config","/Users/nordon.wang/Desktop/self/koa-self/mocks","/Users/nordon.wang/Desktop/self/koa-self/mocks_proxy","/Users/nordon.wang/Desktop/self/koa-self/app.js"]
+2019-08-21 23:00:23,658 INFO 99228 [egg-watcher] Start watching: "/Users/nordon.wang/Desktop/self/koa-self/app"
+2019-08-21 23:00:23,658 INFO 99228 [egg-watcher] Start watching: "/Users/nordon.wang/Desktop/self/koa-self/config"
+2019-08-21 23:00:23,658 INFO 99228 [egg-watcher] Start watching: "/Users/nordon.wang/Desktop/self/koa-self/mocks"
+2019-08-21 23:00:23,658 INFO 99228 [egg-watcher] Start watching: "/Users/nordon.wang/Desktop/self/koa-self/mocks_proxy"
+2019-08-21 23:00:23,658 INFO 99228 [egg-watcher] Start watching: "/Users/nordon.wang/Desktop/self/koa-self/app.js"
+2019-08-21 23:00:23,659 INFO 99228 [egg-watcher:agent] watcher start success
+2019-08-21 23:00:23,665 INFO 99228 [egg:core] dump config after ready, 4ms

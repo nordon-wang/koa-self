@@ -1,0 +1,273 @@
+{
+  "session": {
+    "maxAge": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-security/config/config.default.js",
+      "type": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+  "name": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+  "keys": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+    "version": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+    "description": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+    "main": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+    "scripts": {
+      "test": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+      "dev": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+      "url": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js"
+    },
+    "keywords": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+    "author": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+    "license": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+    "bugs": {
+      "url": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js"
+    },
+    "homepage": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "egg": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+      "koa": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+      "koa-route": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+      "koa-static": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js"
+    }
+  },
+  "baseDir": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+    "strict": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+      "depth": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+    "env": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+    "level": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+    "logging": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+      "port": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/nordon.wang/Desktop/self/koa-self/node_modules/egg/config/config.default.js"
+}
